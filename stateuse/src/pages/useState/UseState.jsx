@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import MouseEnter from '../onMouseEnter/MouseEnter';
+
 class  UseState extends Component {
 
   constructor() {
@@ -43,7 +45,12 @@ class  UseState extends Component {
 
    render() {
      return (
+       <div>
         this.showCompoent()
+        <hr />
+        <MouseEnter />
+       </div>
+
      )
    }
 }
